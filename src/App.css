@@ -5,14 +5,15 @@
   font-family: 'Poppins', sans-serif;
 }
 body {
-  background-color: hsl(168, 86%, 92%);
+  background-color: rgb(214, 224,	241);
   color: #333;
   display: flex;
+  height: 100vh;
   align-items: center;
   justify-content: center;
 }
 .App {
-  padding: 25px;
+  padding: 12px;
   background-color: white;
   display: flex;
   width: 90%;
@@ -31,6 +32,7 @@ body {
 .qr-code > h2 {
   margin-bottom: 15px;
   text-align: center;
+  font-size: 18px;
 }
 .qr-code > p {
   color: gray;
@@ -46,5 +48,11 @@ body {
   .App {
     width: 50%;
     height: 50%;
+  }
+  .qr-code > h2 {
+    font-size: 22px;
+  }
+  .qr-code > p {
+    font-size: 16px;
   }
 }
